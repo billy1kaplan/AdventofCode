@@ -1,4 +1,5 @@
-# Day 2:
+# Day 2: Inventory Management System
+from golf.day2 import f as checksum_golf
 
 
 def checksum():
@@ -40,6 +41,8 @@ def find_common():
                 print(lines[i] + '\n' + lines[j])
 
 
+checksum()
 find_common()
 
 
+checksum_golf(open('../assets/day2_input.txt'))
