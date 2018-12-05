@@ -2,7 +2,7 @@
 
 
 def pass_phrases():
-    with open('data/day4_input.txt') as file:
+    with open('assets/day4_input.txt') as file:
         total = 0
         total_2 = 0
         for line in file:

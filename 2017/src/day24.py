@@ -4,7 +4,7 @@ import copy
 
 def build_graph():
     edge_set = set()
-    with open('../data/day24_input.txt') as file:
+    with open('../assets/day24_input.txt') as file:
         for line in file:
             ints = list(map(int, line.replace('/', ' ').split()))
             edge_set.add((ints[0], ints[1]))
@@ -25,6 +25,7 @@ def find_strongest(edge_set):
         if q.weight() > weight:
             weight = q.weight()
             path = q
+            print('W: %d' % weight, path)
     return path
 
 

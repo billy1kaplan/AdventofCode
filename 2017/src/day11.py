@@ -2,7 +2,7 @@
 
 
 def hex_ed():
-    with open('data/day11_input.txt') as file:
+    with open('assets/day11_input.txt') as file:
         dirs = file.read().split(',')
 
     pos = Hex()

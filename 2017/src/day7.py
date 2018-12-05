@@ -53,7 +53,7 @@ def find_children(nodes, node):
 
 
 def parse():
-    with open('data/day7_input.txt') as file:
+    with open('assets/day7_input.txt') as file:
         nodes = {} # node name : parent
         weight = {} # node name : weight
         for line in file:

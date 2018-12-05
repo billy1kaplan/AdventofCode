@@ -2,7 +2,7 @@
 
 
 def trampoline():
-    with open('data/day5_input.txt') as file:
+    with open('assets/day5_input.txt') as file:
         steps = []
         for line in file:
             steps.append(int(line))

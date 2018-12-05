@@ -3,7 +3,7 @@
 
 def parse():
     reg = {}
-    with open('data/day8_input.txt') as file:
+    with open('assets/day8_input.txt') as file:
         max_val = 0
         for line in file:
             parse_line(reg, line.split())

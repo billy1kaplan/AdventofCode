@@ -3,7 +3,7 @@ from golf.day12 import c as find_all_connected_golf
 
 
 def find_all_connected(x=0):
-    with open('data/day12_input.txt') as file:
+    with open('assets/day12_input.txt') as file:
         lines = list(map(lambda l: list(map(int, ''.join([c if c.isnumeric() else ' ' for c in l]).split())), file.readlines()))
 
     queue = [x]
@@ -30,6 +30,6 @@ def find_all_groups():
 
 
 print('Connected Nodes: %d' % len(find_all_connected()))
-find_all_connected_golf(open('data/day12_input.txt'))
+find_all_connected_golf(open('assets/day12_input.txt'))
 
 find_all_groups()

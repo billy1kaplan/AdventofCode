@@ -2,7 +2,7 @@
 
 
 def process_stream():
-    with open('data/day9_input.txt') as file:
+    with open('assets/day9_input.txt') as file:
         stream = file.read()
 
     escape = False
